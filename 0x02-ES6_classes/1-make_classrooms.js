@@ -1,9 +1,11 @@
 // Importing the ClassRoom class from the specified module
+// Function to initialize an array of classroom instances with different maximum sizes
+// Each instance of ClassRoom is created with a specific maximum number of students
+// This function returns an array containing the initialized ClassRoom instances
+
 import ClassRoom from './0-classroom';
 
-// Function to initialize an array of classroom instances with different maximum sizes
 export default function initializeRooms() {
-  // Creating and returning an array with new ClassRoom instances
   return [
     new ClassRoom(19), // Classroom with a maximum size of 19 students
     new ClassRoom(20), // Classroom with a maximum size of 20 students
