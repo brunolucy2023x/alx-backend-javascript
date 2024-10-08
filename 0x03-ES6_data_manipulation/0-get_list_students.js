@@ -1,3 +1,4 @@
+// Creator: Bruno Owino
 const getListStudents = () => [
   {
     id: 1,
@@ -17,3 +18,4 @@ const getListStudents = () => [
 ];
 
 export default getListStudents;
+
