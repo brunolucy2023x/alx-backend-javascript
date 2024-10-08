@@ -1,4 +1,3 @@
-// Creator: Bruno Owino
 const getListStudents = () => [
   {
     id: 1,
